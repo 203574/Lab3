@@ -49,31 +49,5 @@ public class StudenteDAO
 		return null;
 	}
 	
-	public void create(Studente s)
-	{
-		Connection conn = BDConnect.getConnection();
-	}
-	
-	public Studente read(int matricola)
-	{
-		return null;
-	}
-
-	public boolean read(Studente s)
-	{
-		return false;
-	}
-	
-	public void updateCds(Studente s)
-	{
-		
-	}
-	
-	public void updateCds(int matricola, String cds)
-	{
-		
-	}
-	
-	
 	
 }
